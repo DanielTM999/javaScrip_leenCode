@@ -1,4 +1,4 @@
-var longestCommonPrefix = function(strs) {
+var longestCommonPrefix = (strs) => {
     if(strs.length === 0) return "";
     var prefix = strs[0]
     for(let i=1; i < strs.length;i++){
@@ -10,5 +10,5 @@ var longestCommonPrefix = function(strs) {
     return prefix;
 };
 
-var exemple = longestCommonPrefix(["dog","racecar","car"])
+var exemple = longestCommonPrefix(["flower","flow","flowter"])
 console.log(exemple)
